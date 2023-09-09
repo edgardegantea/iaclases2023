@@ -1,10 +1,13 @@
 from time import sleep
+import curses as color
 
 print("Algoritmo de funcionamiento de Semáforo")
 
 delayGreen = 5
 delayYellow = 3
 delayRed = 5
+
+# redColor = color.COLOR_RED
 
 while True:
     print("Verde")
